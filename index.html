@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Contact form</h1>
+    <div class="container">
+        <div class="box">
+            <form id="contactForm">
+                <label>Name</label> <br> 
+                <input type="text" id="name" placeholder="Type your name" required> <br> <br>
+                <div id="errorname"></div>
+                <label>Email</label> <br>
+                <input type="text" id="email" placeholder="Type your Email" required> <br> <br>
+                <div id="erroremail"></div>
+                <label>Message</label> <br>
+                <textarea id="msg" cols="70" rows="10" placeholder="..." required></textarea> <br> <br>
+                <div id="errormessage"></div>
+                <button id="submit">Send mail</button>
+                <div id="time"></div>
+            </form>
+        </div>
+    </div>
+    <script src="basic.js"></script>
+</body>
+</html>
